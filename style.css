@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(7, 100, 100);
+    border-radius: 50%;
+}
+h1{
+    color: rgb(7, 100, 100);
+}
+.currency{
+    width: 40%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.currency select{
+    padding: 10px 15px;
+    border: 0.5px solid #999;
+    border-radius: 10px;
+}
+.currency select:focus{
+    outline: 0.5px solid #666;
+}
+.currency input{
+    border: 0.5px solid #999;
+    width: 45%;
+    text-align: right;
+}
+.currency input:focus{
+    outline: 0.5px solid #666;
+}
+.swap{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.swap button{
+    background-color: rgb(7, 100, 100);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #fff;
+}
+.swap #rate{
+    color: rgb(7, 100, 100);
+}
+#rate small{
+    display: block;
+    text-align: right;
+}
