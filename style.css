@@ -92,13 +92,16 @@ body{
 overflow: hidden;
 } 
 #container{
-justify-content: space-evenly;
+justify-content: start;
+}
+.header{
+   margin: 30px 0 20px 0;
 }
 .currency{
 width: 85%;
 }
-select{
-padding: 10px 8px;
+.currency select{
+padding: 10px 15px;
 }
 input{
 width: 45%;
