@@ -80,6 +80,9 @@ h1{
     text-align: right;
 }
 @media screen and (max-width: 480px){
+body{
+overflow: hidden;
+} 
 #container{
 justify-content: space-evenly;
 }
