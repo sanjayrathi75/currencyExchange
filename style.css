@@ -12,12 +12,14 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 30px;
 }
 .header{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .logo{
     width: 60px;
@@ -29,6 +31,7 @@ svg{
     height: 100%;
     object-fit: cover;
     object-position: center;
+    fill: rgb(7, 100, 100);
 }
 h1{
     color: rgb(7, 100, 100);
@@ -75,4 +78,24 @@ h1{
 #rate small{
     display: block;
     text-align: right;
+}
+@media screen and (max-width: 480px){
+.currency{
+width: 85%;
+}
+select{
+padding: 10px 8px;
+}
+input{
+width: 45%;
+}
+.swap{
+width: 85%;
+}
+.swap button{
+margin-right: 30px;
+}
+#rate{
+text-align: center;
+}
 }
