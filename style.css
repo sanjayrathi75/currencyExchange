@@ -96,22 +96,20 @@ overflow: hidden;
 justify-content: start;
 }
 .header{
-   margin: 50px 0 20px 0;
+   margin: 60px 0 30px 0;
 }
 .currency{
    width: 85%;
-   height: 100%;
 }
-
-.content .currency select{
-padding: 15px 20px;
-border-radius: 3px;
+.currency select{
+    padding: 10px 20px
+    border-radius: 3px;
     background-color: #fff;
     color: #000;
-    font-size: 14px;
+    font-size: 16px;
 }
 
-input{
+.currency input{
 width: 45%;
 }
 .swap{
